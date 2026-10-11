@@ -1,0 +1,13 @@
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Local scratch - never commit test output
+*.local.*
+*.out.txt
+
+# The check scripts only ever write inside $env:TEMP, never inside this repo - this entry
+# is a safety net in case a check is ever run from a copy of this folder instead.
+fieldpane-check-*/
